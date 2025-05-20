@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+body{
+     font-family: "Montserrat", sans-serif; 
+}
+
+.slick-dots {
+  bottom: 20px;
+}
+.slick-dots li button:before {
+  font-size: 14px !important;
+  color: rgb(255, 0, 0) !important;
+}
+.slick-dots li.slick-active button:before {
+  color: rgb(0, 98, 255) !important;
+}
+
+/* Arrow Styling */
+.slick-prev, .slick-next {
+  z-index: 1; 
+  width: 40px; 
+  height: 40px;
+}
+.slick-prev:before, .slick-next:before {
+  font-size: 30px;
+  color: rgb(232, 0, 0) !important;
+}
+
+/* Optional hover effect */
+.slick-prev:hover:before, .slick-next:hover:before {
+  color: rgb(81, 255, 0) !important; 
+}
