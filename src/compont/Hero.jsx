@@ -12,7 +12,7 @@ function Hero() {
     slidesToScroll: 1,
     autoplay: true, 
     autoplaySpeed: 2000, 
-  };
+  }; 
 
   const SliderData = [
     {
@@ -36,19 +36,18 @@ function Hero() {
   ];
 
   return (
-    <div className=" pt-[90px] pb-[75px] w-full  bg-[url(../public/slider-bg.jpg)] bg-cover  relative z-[-5] ">
+    <div className=" pt-[90px] pb-[75px] w-full  bg-[url(../public/images/slider-bg.jpg)] bg-cover  relative z-[-5] ">
       <div className=" max-w-[1170px] mx-auto px-5  ">
-        <Slider {...settings}>
-            {
-                SliderData.map(
-                    (d,i)=> {
-                        return(
+        <Slider {...settings}> 
+            { 
+                SliderData.map( 
+                    (d,i)=> { 
+                        return( 
                             <SliderUi key={i}  off = {d.off} text = {d.text} content = { d.content } /> 
-                        )
-
-                    }
-                )
-            }
+                        ) 
+                    } 
+                ) 
+            } 
         </Slider>
       </div>
     </div>

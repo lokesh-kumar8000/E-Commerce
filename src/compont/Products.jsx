@@ -3,62 +3,62 @@ import React from "react";
 function Products() {
   const ProductData = [
     {
-      img: "../public/images/p1.png",
+      img: "https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg",
       type: `Men's Shirt `,
-      price: "$75 ",
+      price: "$75 ", 
     },
     {
-      img: "../public/images/p2.png",
+      img: "\public/images/p1.png",
       type: `Men's Shirt `,
       price: "$80 ",
     },
     {
-      img: "../public/images/p3.png",
+      img: "/images/p3.png",
       type: ` Women's Dress `,
       price: "$68 ",
     },
     {
-      img: "../public/images/p4.png",
+      img: "/images/p4.png",
       type: `Women's Dress `,
       price: "$70 ",
     },
     {
-      img: "../public/images/p5.png",
+      img: " /images/p5.png",
       type: `Women's Dress `,
       price: "$75 ",
     },
     {
-      img: "../public/images/p6.png",
+      img: "/images/p6.png",
       type: `Women's Dress `,
       price: "$68 ",
     },
     {
-      img: "../public/images/p7.png",
+      img: "/images/p7.png",
       type: `Women's Dress `,
       price: "$80 ",
     },
     {
-      img: "../public/images/p8.png",
+      img: "/images/p8.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p9.png",
+      img: "/images/p10.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p10.png",
+      img: "/images/p11.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p11.png",
+      img: "./images/p12.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p12.png",
+      img: "/images/p12.png",
       type: `Women's Dress `,
       price: "$65 ",
     },

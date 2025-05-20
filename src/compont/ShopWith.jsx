@@ -4,17 +4,17 @@ function ShopWith() {
 
     const ShopData = [
         {
-            icon : '../public/images/express-delivery.png',
+            icon :'/images/express-delivery.png',
             title:'Fast Delivery',
             pera : 'variations of passages of Lorem Ipsum available',
         },
         {
-            icon : '../public/images/free-delivery.png ',
+            icon :'images/free-delivery.png ',
             title:'Free Shiping',
             pera : 'variations of passages of Lorem Ipsum available',
         },
         {
-            icon : '../public/images/best-seller.png',
+            icon :'/images/best-seller.png', 
             title:'Free Shiping',
             pera : 'variations of passages of Lorem Ipsum available',
         },
