@@ -6,7 +6,7 @@ function Men() {
       <div className=" max-w-[1170px] mx-auto">
         <div className=" md:grid grid-cols-2  py-[50px] relative z-[1] ">
           <div className=" col-span-1 hidden md:inline ">
-            <img src="../public/men-removebg-preview.png" alt="" className=" absolute bottom-0 " />
+            <img src="../public/images/men-removebg-preview.png" alt="" className=" absolute bottom-0 " />
           </div>
           <div className=" col-span-1 text-[#002c3e] px-[20px] ">
             <h2 className=" text-[40px] sm:text-[56px] font-bold mb-2.5  ">#NewArrivals</h2>

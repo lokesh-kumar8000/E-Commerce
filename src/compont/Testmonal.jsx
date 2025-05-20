@@ -14,17 +14,17 @@ function Testmonal() {
   };
   const Review = [
     {
-      img: "../public/client.jpg",
+      img: "../public/images/client.jpg",
       name: "Anna Trevor",
       pera: "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.",
     },
     {
-      img: "../public/client.jpg",
+      img: "../public/images/client.jpg",
       name: "Anna Trevor",
       pera: "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.",
     },
     {
-      img: "../public/client.jpg",
+      img: "../public/images/client.jpg", 
       name: "Anna Trevor",
       pera: "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.",
     },
