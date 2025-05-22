@@ -3,62 +3,62 @@ import React from "react";
 function Products() {
   const ProductData = [
     {
-      img: "https://pbs.twimg.com/profile_images/1701878932176351232/AlNU3WTK_400x400.jpg",
+      img: "../public/images/p1.png", 
       type: `Men's Shirt `,
-      price: "$75 ", 
+      price: "$75 ",
     },
     {
-      img: "\public/images/p1.png",
+      img: "/../public/images/p2.png",
       type: `Men's Shirt `,
       price: "$80 ",
     },
     {
-      img: "/images/p3.png",
+      img: "../public/images/p3.png",
       type: ` Women's Dress `,
       price: "$68 ",
     },
     {
-      img: "/images/p4.png",
+      img: "../public/images/p4.png",
       type: `Women's Dress `,
       price: "$70 ",
     },
     {
-      img: " /images/p5.png",
+      img: "../public/images/p5.png",
       type: `Women's Dress `,
       price: "$75 ",
     },
     {
-      img: "/images/p6.png",
+      img: "../public/images/p6.png",
       type: `Women's Dress `,
       price: "$68 ",
     },
     {
-      img: "/images/p7.png",
+      img: "../public/images/p7.png",
       type: `Women's Dress `,
       price: "$80 ",
     },
     {
-      img: "/images/p8.png",
+      img: "../public/images/p8.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "/images/p10.png",
+      img: "../public/images/p9.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "/images/p11.png",
+      img: "../public/images/p10.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "./images/p12.png",
+      img: "../public/images/p11.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "/images/p12.png",
+      img: "../public/images/p12.png",
       type: `Women's Dress `,
       price: "$65 ",
     },
@@ -76,8 +76,10 @@ function Products() {
             return <ProductUi img={d.img} type={d.type} price={d.price} />;
           })}
         </div>
-        <div className=" flex justify-center items-center mt-[45px]  " >
-          <button className=" bg-[#f7444e] border border-1-[#f7444e] text-white py-[10px] px-[40px] tracking-wide font-light cursor-pointer hover:bg-transparent hover:text-[#f7444e] duration-200 " >View All products</button>
+        <div className=" flex justify-center items-center mt-[45px]  ">
+          <button className=" bg-[#f7444e] border border-1-[#f7444e] text-white py-[10px] px-[40px] tracking-wide font-light cursor-pointer hover:bg-transparent hover:text-[#f7444e] duration-200 ">
+            View All products
+          </button>
         </div>
       </div>
     </div>
@@ -87,6 +89,7 @@ function Products() {
 export default Products;
 
 const ProductUi = (props) => {
+  console.log('first',props)
   return (
     <div className=" cols-span-1 mt-[25px] p-[35px] mx-[15px] mb-[4px] shadow bg-[#f7f8f9] cursor-pointer hover:scale-102 duration-500 relative ">
       <div className="flex justify-center ">

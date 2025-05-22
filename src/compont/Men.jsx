@@ -7,9 +7,9 @@ function Men() {
         <div className=" md:grid grid-cols-2  py-[50px] relative z-[1] ">
           <div className=" col-span-1 hidden md:inline ">
             <img src="../public/images/men-removebg-preview.png" alt="" className=" absolute bottom-0 " />
-          </div>
-          <div className=" col-span-1 text-[#002c3e] px-[20px] ">
-            <h2 className=" text-[40px] sm:text-[56px] font-bold mb-2.5  ">#NewArrivals</h2>
+          </div> 
+          <div className=" col-span-1 text-[#002c3e] px-[20px] "> 
+            <h2 className=" text-[40px] sm:text-[56px] font-bold mb-2.5  ">#NewArrivals</h2> 
             <p className=" my-5 tracking-wider text-[14px] sm:text-[16px]  " >
               Vitae fugiat laboriosam officia perferendis provident aliquid
               voluptatibus dolorem, fugit ullam sit earum id eaque nisi hic?
@@ -17,8 +17,8 @@ function Men() {
               ex unde!
             </p> 
             <button className=" bg-[#f7444e] py-[10px] px-[45px] text-white cursor-pointer " > Shop Now  </button>
-          </div>
-        </div>
+          </div> 
+        </div> 
       </div>
     </div>
   );
