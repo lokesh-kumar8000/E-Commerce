@@ -10,12 +10,12 @@ function Header() {
     <div className="w-full py-4 shadow bg-white sticky top-0 z-[999] "> 
       <div className=" max-w-[1170px] mx-auto"> 
         <div className="flex justify-between items-center px-5 text-[#131313]">
-          <img className=" w-[150px] sm:w-[250px] py-1" src="../public/logo.png" alt="" />
+          <img className=" w-[150px] sm:w-[250px] py-1" src="Images/logo.png" alt="" />
           <ul className=" lg:flex hidden ">
             <li className="px-5 py-1 uppercase font-bold cursor-pointer  hover:text-[#f7444e] ">
               {" "}  
               <Link to="/">home</Link>{" "}
-            </li>
+            </li> 
             <li className="px-5 py-1 uppercase font-bold cursor-pointer  hover:text-[#f7444e] ">
               {" "}
               <Link to="/about">about</Link>{" "}

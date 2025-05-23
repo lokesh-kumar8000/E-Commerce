@@ -7,7 +7,7 @@ function Footer() {
         <div className=' max-w-[1170px] mx-auto ' >
             <div className="sm:flex justify-between flex-wrap px-5 ">
                 <div className=' max-w-[360px]  ' >
-                    <img className=' max-w-[210px] mb-7 ' src="../public/logo.png" alt="" /> 
+                    <img className=' max-w-[210px] mb-7 ' src="Images/logo.png" alt="" /> 
                     <div className=' text-[15px] mb-5 '>
                         <strong>ADDRESS:</strong> 
                          28 White tower, Street Name New York City, USA

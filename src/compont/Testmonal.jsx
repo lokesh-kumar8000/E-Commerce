@@ -14,17 +14,17 @@ function Testmonal() {
   };
   const Review = [
     {
-      img: "../public/images/client.jpg",
+      img: "Images/client.jpg",
       name: "Anna Trevor",
       pera: "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.",
     },
     {
-      img: "../public/images/client.jpg",
+      img: "Images/client.jpg",
       name: "Anna Trevor",
       pera: "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.",
     },
     {
-      img: "../public/images/client.jpg", 
+      img: "Images/client.jpg", 
       name: "Anna Trevor",
       pera: "Dignissimos reprehenderit repellendus nobis error quibusdam? Atque animi sint unde quis reprehenderit, et, perspiciatis, debitis totam est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus accusantium sapiente nam! Quaerat.",
     },
@@ -47,27 +47,24 @@ function Testmonal() {
 
 export default Testmonal;
 
-const ReviewUi = () => {
+const ReviewUi = (props) => {
   return (
     <div className=" mt-[56px] mx-[20px] sm:mx-[95px] ">
       <div className=" flex justify-center ">
         <img
           className=" w-[150px] rounded-full "
-          src="../public/client.jpg"
+          src={ props.img }
           alt=""
         />
       </div>
       <div className=" text-center ">
-        <h5 className=" font-bold py-3 text-xl ">Anna Trevor</h5>
+        <h5 className=" font-bold py-3 text-xl "> {props.name} </h5>
         <div className=" text-[15px] tracking-wider text-gray-400  ">
           {" "}
           Customer{" "}
         </div>
         <p className=" my-3 font-extralight tracking-wider  ">
-          Dignissimos reprehenderit repellendus nobis error quibusdam? Atque
-          animi sint unde quis reprehenderit, et, perspiciatis, debitis totam
-          est deserunt eius officiis ipsum ducimus ad labore modi voluptatibus
-          accusantium sapiente nam! Quaerat.
+          {props.pera}
         </p>
       </div>
     </div>

@@ -3,71 +3,71 @@ import React from "react";
 function Products() {
   const ProductData = [
     {
-      img: "../public/images/p1.png", 
+      img: "Images/p1.png", 
       type: `Men's Shirt `,
       price: "$75 ",
     },
     {
-      img: "/../public/images/p2.png",
+      img: "Images/p2.png",
       type: `Men's Shirt `,
       price: "$80 ",
     },
     {
-      img: "../public/images/p3.png",
+      img: "Images/p3.png",
       type: ` Women's Dress `,
       price: "$68 ",
     },
     {
-      img: "../public/images/p4.png",
+      img: "Images/p4.png",
       type: `Women's Dress `,
       price: "$70 ",
     },
     {
-      img: "../public/images/p5.png",
+      img: "Images/p5.png",
       type: `Women's Dress `,
       price: "$75 ",
     },
     {
-      img: "../public/images/p6.png",
+      img: "Images/p6.png",
       type: `Women's Dress `,
       price: "$68 ",
     },
     {
-      img: "../public/images/p7.png",
+      img: "Images/p7.png",
       type: `Women's Dress `,
       price: "$80 ",
     },
     {
-      img: "../public/images/p8.png",
+      img: "Images/p8.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p9.png",
+      img: "Images/p9.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p10.png",
+      img: "Images/p10.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p11.png",
+      img: "Images/p11.png",
       type: `Men's Shirt `,
       price: "$65 ",
     },
     {
-      img: "../public/images/p12.png",
+      img: "Images/p12.png",
       type: `Women's Dress `,
       price: "$65 ",
     },
   ];
 
-  return (
-    <div className=" w-full py-[70px] ">
-      <div className=" max-w-[1170px] mx-auto ">
-        <h2 className=" text-center font-bold text-[40px] sm:text-[56px] ">
+  return ( 
+    <div className=" w-full py-[70px] "> 
+      <div className=" max-w-[1170px] mx-auto "> 
+        <h2 className=" text-center font-bold text-[40px] sm:text-[56px] "> 
           {" "}
           Our <span className=" text-[#f7444e] "> Products </span>{" "}
         </h2>
