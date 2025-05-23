@@ -36,7 +36,7 @@ function Hero() {
   ];
 
   return (
-    <div className=" pt-[90px] pb-[75px] w-full  bg-[url(../public/images/slider-bg.jpg)] bg-cover  relative z-[-5] ">
+    <div className=" pt-[90px] pb-[75px] w-full  bg-[url(Images/slider-bg.jpg)] bg-cover  relative z-[-5] ">
       <div className=" max-w-[1170px] mx-auto px-5  ">
         <Slider {...settings}> 
             { 
